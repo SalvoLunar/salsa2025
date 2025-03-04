@@ -1,6 +1,7 @@
 <script setup lang="ts">
   import { useI18n } from 'vue-i18n'
   const { setLocale } = useI18n()
+  setLocale('en')
 </script>
 <style lang="scss" scoped>
   .language-selector {
