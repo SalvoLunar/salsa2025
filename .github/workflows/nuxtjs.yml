@@ -59,7 +59,7 @@ jobs:
           path: |
             .nuxt
             node_modules
-          key: ${{ runner.os }}-nuxt-${{ hashFiles('**/yarn.lock', '**/package-lock.json') }}
+          key: ${{ runner.os }}-nuxt-${{ hashFiles('package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-nuxt-
       - name: Install dependencies
