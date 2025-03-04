@@ -9,6 +9,9 @@ export default defineNuxtConfig({
     plugins: [
       tailwindcss(),
     ],
+    build: {
+      cssMinify: false
+    }
   },
   modules: ['@nuxtjs/i18n'],
   i18n: {
